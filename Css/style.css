@@ -1,0 +1,255 @@
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header-nav-btn a:hover,
+.header-nav-list li:hover {
+  color: #2196f3;
+}
+
+.header-nav-btn {
+  display: flex;
+  gap: 50px;
+}
+
+/* Main */
+.header-main-container {
+  background: #2f303a;
+}
+.header-main-text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  padding: 200px 452px 30px 452px;
+}
+.header-main-button {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+
+  margin: 30px 692px 200px 854px;
+  padding: 10px 32px;
+
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+/* Section 2 */
+
+.block-title {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.block-text {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  width: 270px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.blocks {
+  display: flex;
+  justify-content: center;
+  margin: 94px 215px;
+  gap: 30px;
+}
+
+.our-work-title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding-bottom: 50px;
+}
+
+.our-work-container {
+  padding-bottom: 94px;
+}
+.our-work-img-1 {
+  padding-right: 30px;
+}
+.our-work-img-2 {
+  padding-right: 30px;
+}
+
+.our-work-images {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img {
+  width: 270px;
+  height: 260px;
+}
+
+.our-command-title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.card-name {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding: 30px 70px 10px 70px;
+}
+
+.card-work {
+  color: #757575;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding: 0 70px 30px 70px;
+}
+
+.our-command {
+  background: #f5f4fa;
+}
+
+/* Footer */
+
+.footer {
+  background: #2f303a;
+}
+.footer-container {
+  padding: 60px 1154px 60px 215px;
+}
+.adress {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+.email {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  padding-bottom: 9px;
+}
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+@media screen and (max-wight: 1700px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+.a1 {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.a2 {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.a1:hover {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.a2:hover {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
